@@ -1,0 +1,256 @@
+@font-face {
+    font-family: Squid;
+    src: url(../Static/Azonix.otf);
+}
+
+.Home{
+    background-color: #23232e;
+    background-size: 100%;
+}
+
+.head{
+    color: white;
+    opacity: 70%;
+    margin: -20vh 0;
+}
+
+.head h1{
+    font-size: 60px;
+    text-align: center;
+    
+}
+.head h2{
+    font-size: 35px;
+    text-align: center;
+    
+}
+.image1{
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 18px;
+    width: 30%;
+    height: 260px;
+}
+.image2{
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 18px;
+    width: 32%;
+}
+.image3{
+    cursor: pointer;
+    border-radius: 6px;
+    width:32%;
+    margin-left: 18px;
+}
+.info{
+    margin-top: 225px;
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 45px;
+    margin-left: 20px;
+}
+.info2{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 45px;
+    margin-left: 90vh;
+    margin-top: -40vh;
+}
+.info3{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 45px;
+    margin-left: 21px;
+    margin-top: 12vh;
+}
+.para{
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 27px;
+    margin-left: 20px;
+    width: 52%;
+}
+.para2{
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 27px;
+    margin-left: 90vh;
+}
+.para3{
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 27px;
+    margin-left: 20px ;
+}
+.img1{
+    margin-left: 53%;
+    margin-top: -225px;
+    width: 38%;
+     height: 40vh;
+}
+.img2{
+    margin-left: 4vh;
+    width: 38%; 
+    height: 50vh;
+}
+.box :hover{
+    transform: scale(1.2);
+    z-index: 3;
+    box-shadow:0 0 20px 2px gray ;
+    transition-delay: 0.2s;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.Line{
+    width:150px;
+}
+.logo{
+    width: 175px;
+     margin-top: 20px
+}
+
+
+@media(max-width:1050px){
+    .image1{
+      width: 30%;
+      height: 30vh;
+    }
+    .image2{
+        width: 33%;
+        height: 33vh;
+    }
+    .image3{
+        width: 30%;
+        height: 30vh;
+    }
+    .para{
+        width: 55%;
+    }
+    .img1{
+       width: 38%;
+       margin-left: 60%;
+       margin-top: -350px;
+    }
+    .img2{
+        margin-top: 10vh;
+    }
+    .para2{
+        margin-left: 62vh;
+        margin-top: -3vh;
+        width: 55%;
+    }
+    .info2{
+        margin-left: 62vh;
+        margin-top: -50vh;
+    }
+}
+@media(max-width:900px){
+    .image1{
+        width: 29.5%;
+        height: 30vh;
+      }
+      .image2{
+          width: 33%;
+          height: 33vh;
+      }
+      .image3{
+          width: 29.5%;
+          height: 30vh;
+      }
+      .img1{
+        width: 38%;
+        margin-left: 60%;
+        margin-top: -400px;
+     }
+}
+@media(max-width:788px){
+    body {
+    background-size:150%;
+    }
+    .image1{
+        width: 30%;
+        height: 30vh;
+      }
+      .image2{
+          width: 32%;
+          height: 33vh;
+      }
+      .image3{
+          width: 29.5%;
+          height: 30vh;
+      }
+}
+@media(max-width:744px){
+    .image1{
+        width: 30%;
+        height: 28vh;
+        margin-left: 20px;
+      }
+      .image2{
+          width: 31%;
+          height: 31vh;
+      }
+      .image3{
+          width: 30%;
+          height: 28vh;
+      }
+      .para2{
+          margin-left: 50vh;
+   }
+      .info2{
+        margin-left: 50vh;
+      }
+}
+@media(max-width:727px){
+    .image1{
+        width: 30%;
+        height: 28vh;
+        margin-left: 20px;
+      }
+      .image2{
+          width: 30%;
+          height: 31vh;
+      }
+      .image3{
+          width: 30%;
+          height: 28vh;
+      }
+}
+@media(max-width:655px){
+    .image1{
+        width: 29%;
+        height: 26vh;
+        margin-left: 20px;
+      }
+      .image2{
+          width: 30%;
+          height: 28.5vh;
+      }
+      .image3{
+          width: 29%;
+          height: 26vh;
+      }
+      .img1{
+        width: 50%;
+        margin-top: -60vh;
+     }
+     .img2{
+        width: 50%;
+     }
+}
+@media(max-width:549px){
+    .image1{
+        width: 29%;
+        height: 25vh;
+        margin-left: 20px;
+      }
+      .image2{
+          width: 29%;
+          height: 27.5vh;
+      }
+      .image3{
+          width: 29%;
+          height: 26=5vh;
+      }
+}
+@media(max-width:1250px){
+    .img1{
+        margin-left: 55%;
+    }
+    
+}

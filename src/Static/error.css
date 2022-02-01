@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Squid2;
+  src: url(../Static/Game\ Of\ Squids.otf);
+}
+
+.error_handler h1 {
+  font-family: Squid2;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Squid;
+    src: url(../Static/Azonix.otf);
+}
+
+#word_root h2{
+    font-size: 40px;
+    background: rgb(0,36,28);
+background: linear-gradient(90deg, rgba(0,36,28,1) 0%, rgba(9,86,121,1) 17%, rgba(255,0,194,1) 71%);
+    color: transparent;
+    background-clip: text;
+    font-family: Squid;
+}
+
+#word_root button{
+    width: 20vw;
+    height: 10vh;
+    background-size: 200%;
+    color: white;
+    font-style: bold;
+    filter: grayscale(50%);
+    cursor: pointer;
+    background-image: url(../Static/blue\ tech\ smart\ city\ background_968915.jpg);
+    border: solid 3px red;
+    font-size: 20px;
+}
+
+#word_root button:hover{
+    filter: grayscale(0%);
+}
+
+@media screen and (min-width:550px){
+#word_root{
+    margin-top: 10%;
+}
+}
